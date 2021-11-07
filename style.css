@@ -1,4 +1,39 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;}
 
+#calculation-app {
+    background-color: white;
+    width: fit-content;
+    padding: 20px 50px;
+    border-radius: 6%;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+h1 {
+    color: gray;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.computed-area {
+    width: 80%;
+    margin: auto;
+}
+
+
+.input-field {
+    display: flex;
+    margin-bottom: 15px;
+}
+.input-field .label {
+    width: 40%;
+}
+
+#computation-result {
+    margin-top: 15px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
 
